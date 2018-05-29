@@ -25,10 +25,7 @@ export class App extends Component {
                 PropTypes.array,
             ]),
         }),
-        browseUrl: PropTypes.string,
-        basketUrl: PropTypes.string,
         isLoading: PropTypes.bool,
-        orderComplete: PropTypes.bool,
         loadingMessage: PropTypes.string,
         pageNotFound: PropTypes.bool,
         children: PropTypes.node,
@@ -61,8 +58,8 @@ export class App extends Component {
 
         if (globalError) {
             mainContent = (
-                <div className={styles.inner}>
-                    ////
+                <div >
+                    asdasd
                 </div>
             );
         } else {
@@ -72,9 +69,9 @@ export class App extends Component {
         }
 
         return (
-            <div className={styles.app}>
+            <div className={styles.App}>
                 <Header/>
-                <main id="main" className={styles.container}>
+                <main id="main" >
                     <LoadingScreen show={isLoading} message={loadingMessage}/>
                     {mainContent}
                 </main>

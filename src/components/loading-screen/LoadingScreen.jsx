@@ -1,10 +1,15 @@
-import React from "react";
+import React, {PureComponent} from "react";
 
-const LoadingScreen =(
-    <footer>
-        <div>asd</div>
-    </footer>
-);
+class LoadingScreen extends PureComponent {
+    render() {
+        return (
+            <div>
+
+            </div>
+        );
+    }
+
+}
 
 export default LoadingScreen;
 

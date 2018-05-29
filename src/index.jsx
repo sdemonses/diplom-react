@@ -11,10 +11,9 @@ const mount = document.getElementById('root');
 export function init() {
 
     const history = createBrowserHistory();
-    const routes = routesConstants;
 
     render(
-        <Root store={store} history={history} allowedRoutes={routes} />,
+        <Root store={store} history={history} allowedRoutes={routesConstants} />,
         mount,
     );
 }
