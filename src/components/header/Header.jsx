@@ -1,29 +1,25 @@
 import React, {PureComponent} from "react";
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
-import style from './Header.scss';
-import classNames from 'classnames';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './../../assets/css/base.css'
+import './header.css'
 class Header extends PureComponent {
     render() {
-        const styleClass = classNames(bootstrap.navbar, bootstrap["navbar-expand-lg"], bootstrap["navbar-light"], bootstrap["fixed-top"], style.mainNav);
         return (
-
-            <nav className={styleClass}>
-                <div className={bootstrap.container}>
-                    <a className={bootstrap["navbar-brand"]} href="/">PAYBUS</a>
-                    <button className={classNames(bootstrap["navbar-toggler "], bootstrap["navbar-toggler-right"])} type="button" data-toggle="collapse"
-                            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                        Menu
-                    </button>
-                    <div className={classNames(bootstrap.collapse, bootstrap["navbar-collapse"])} id="navbarResponsive">
-                        <ul className={classNames(bootstrap["navbar-nav"], bootstrap["m1-auto"])}>
-                            <li className={style["nav-item"]}>
-                                <a className={style["nav-link"]} href={"/login"}>Sign In</a>
-                            </li>
-                            <li className={style["nav-item"]}>
-                                <a className={style["nav-link"]} href={"/register"}>Sign Up</a>
-                            </li>
+            <nav className="navbar navbar-default navbar-fixed-top">
+                <div className="container">
+                    <div className="navbar-header">
+                        <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span className="sr-only">Toggle navigation</span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                        </button>
+                        <a className="navbar-brand" href="../">Paybus</a>
+                    </div>
+                    <div id="navbar" className="navbar-collapse collapse">
+                        <ul className="nav navbar-nav navbar-right">
+                            <li><a href="../login">Sign in</a></li>
+                            <li><a className="test" href="../navbar-static-top/">Sign up</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,0 +1,22 @@
+.navbar-default {
+    font-size: 18px;
+    background: #222f42;
+    border: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default a.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a:active {
+    color: #fff;
+}
+
+.navbar-default a.navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+    color: #70aad2;
+}

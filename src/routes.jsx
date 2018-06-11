@@ -4,7 +4,7 @@ import {Route, Switch} from 'react-router';
 
 import App from './App';
 import Login from './pages/login/Login';
-import Main from "./pages/main/Main";
+import Main from './pages/main/Main';
 
 //
 import NotFound from './pages/not-found/NotFound';

@@ -9,6 +9,7 @@ import LoadingScreen from './components/loading-screen/LoadingScreen';
 import NotFound from './pages/not-found/NotFound';
 // styles
 import styles from './App.scss';
+import './assets/css/base.css'
 
 
 export class App extends Component {
@@ -71,7 +72,7 @@ export class App extends Component {
         return (
             <div className={styles.App}>
                 <Header/>
-                <main id="main" >
+                <main id="main" className="container basic-container" >
                     <LoadingScreen show={isLoading} message={loadingMessage}/>
                     {mainContent}
                 </main>
