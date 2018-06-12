@@ -15,13 +15,14 @@ export default class Main extends Component {
     render() {
         return (
             <div data-test="login-login-form" className="main-container">
-                <div className="search-container">
+                <form className="search-container">
                     <input className="search-input" type="text"/>
                     <button className="search-arrow"> <i className="glyphicon glyphicon-transfer"></i></button>
                     <input className="search-input" type="text"/>
                     <input className="search-date search-input" type="date"/>
-                    <button className="search-button" >search</button>
-                </div>
+                    <button type="submit" className="search-button" >search</button>
+                </form>
+                {/*example of result item, need to be component*/}
                 <div className="result-item">
                     <div className="start">
                         <div className="start-container">
@@ -52,6 +53,7 @@ export default class Main extends Component {
                         <div className="seats">5 seats available</div>
                     </div>
                 </div>
+                {/*<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1312687.52081317!2d32.23863707939907!3d50.01430131261039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0LrRltCyLCDQpdCw0YDQutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!3m2!1d49.9935!2d36.230382999999996!5e0!3m2!1suk!2sua!4v1528815079647" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>*/}
             </div>
         );
     }

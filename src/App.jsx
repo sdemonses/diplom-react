@@ -7,6 +7,7 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import LoadingScreen from './components/loading-screen/LoadingScreen';
 import NotFound from './pages/not-found/NotFound';
+import Register from './pages/register/Register';
 // styles
 import styles from './App.scss';
 import './assets/css/base.css'

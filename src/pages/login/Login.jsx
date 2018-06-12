@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './login.css';
 
 export default class Login extends Component {
     static propTypes = {};
@@ -12,15 +13,14 @@ export default class Login extends Component {
     render() {
         return (
             <div className="container">
-                <div className="jumbotron">
-                    <h1>LOGIN</h1>
-                    <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-                    <p>To see the difference between static and fixed top navbars, just scroll.</p>
-                    <p>
-                        <a className="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-                    </p>
-                </div>
-
+                <form className="login-form">
+                    <h1 className="logo">Paybus</h1>
+                    <h2 className="headline">SignIn</h2>
+                    <input className="input-email" type="email" placeholder="email" />
+                    <input  className="input-password" type="password" placeholder="password" />
+                    <button className="go" type="submit">Let's Go</button>
+                    <a className="link" href="./signup">Don't have an account?</a>
+                </form>
             </div>
         );
     }

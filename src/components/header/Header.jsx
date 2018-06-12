@@ -1,6 +1,6 @@
 import React, {PureComponent} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './../../assets/css/base.css'
+// import './../../assets/css/base.css'
 import './header.css'
 class Header extends PureComponent {
     render() {
@@ -14,12 +14,12 @@ class Header extends PureComponent {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="../">Paybus</a>
+                        <a className="navbar-brand logo" href="../">Paybus</a>
                     </div>
                     <div id="navbar" className="navbar-collapse collapse">
                         <ul className="nav navbar-nav navbar-right">
                             <li><a href="../login">Sign in</a></li>
-                            <li><a className="test" href="../navbar-static-top/">Sign up</a></li>
+                            <li><a className="test" href="../signup">Sign up</a></li>
                         </ul>
                     </div>
                 </div>
