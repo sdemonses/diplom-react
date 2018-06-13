@@ -15,6 +15,7 @@
 }
 
 .input-email, .input-password {
+    width: 400px;
     color: #86b593;
     border: none;
     border-bottom: 1px solid #222f42;

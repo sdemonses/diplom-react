@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import LoadingScreen from './components/loading-screen/LoadingScreen';
 import NotFound from './pages/not-found/NotFound';
 import Register from './pages/register/Register';
+import Details from './pages/details/Details';
 // styles
 import styles from './App.scss';
 import './assets/css/base.css'

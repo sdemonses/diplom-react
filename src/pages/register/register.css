@@ -9,8 +9,7 @@
     padding: 30px 0;
 }
 
-/*.register-form .input-email,*/
-/*.register-form .input-password{*/
-    /*background-color: #222f42;*/
-    /*bo*/
-/*}*/
+.register-form .input-email,
+.register-form .input-password{
+    min-width: 400px;
+}
