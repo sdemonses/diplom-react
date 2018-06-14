@@ -6,6 +6,7 @@ import {findRoutes} from '../../redux/actions/app/appAction'
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
 import {Link, withRouter} from 'react-router-dom';
+import {Form} from 'redux-form';
 
 
 
@@ -34,7 +35,6 @@ class Main extends Component {
                     <input className="search-input" type="text"/>
                     <input className="search-date search-input" type="date"/>
                     <button type="submit" className="search-button" onClick={this.onFormSubmit}>search</button>
-                    <Link to="route">sadfasd</Link>
                 </div>
             </div>
         );
