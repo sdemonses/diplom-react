@@ -8,6 +8,7 @@ import Main from './pages/main/Main';
 import Register from './pages/register/Register';
 import Details from './pages/details/Details';
 import FoundedItems from './pages/foundedItems/FoundedItems';
+import Congradulation from './pages/congradulation/Congradulation';
 
 //
 import NotFound from './pages/not-found/NotFound';
@@ -33,6 +34,7 @@ export default function routes(routes) {
                 <Route path={routes.REGISTER} component={Register}/>
                 <Route path={routes.DETAILS} component={Details}/>
                 <Route path={routes.ROUTES} component={FoundedItems}/>
+                <Route path={routes.CONGRADULATION} component={Congradulation}/>
                 <Route component={NotFound}/>
             </ConnectedSwitch>
         </AppRoute>

@@ -5,9 +5,7 @@ import './main.css';
 import {findRoutes} from '../../redux/actions/app/appAction'
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
-import {Link, withRouter} from 'react-router-dom';
-import {Form} from 'redux-form';
-
+import FormFound from "../../components/form/FormFound"
 
 
 class Main extends Component {

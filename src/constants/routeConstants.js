@@ -3,5 +3,6 @@ export default {
     MAIN: '/',
     REGISTER:'/signup',
     DETAILS:'/details',
-    ROUTES:'/routes'
+    ROUTES:'/routes',
+    CONGRADULATION:'/cogradulation'
 };

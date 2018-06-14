@@ -14,7 +14,7 @@ export const INITIAL_STATE = {
 };
 const routes =
     [{
-        date: '30.08.2018',
+        date: '30.06.2018',
         departureTime: '14.00',
         departureStation: 'Kiev Central Bus Station',
         departureTown: 'KIEV',
@@ -26,7 +26,7 @@ const routes =
         duration: '8.00',
     },
         {
-            date: '30.08.2018',
+            date: '30.06.2018',
             departureTime: '05.35',
             departureStation: 'Kiev Kharkov Area, 201',
             departureTown: 'KIEV',
@@ -38,7 +38,7 @@ const routes =
             duration: '7.50',
         },
         {
-            date: '30.08.2018',
+            date: '30.06.2018',
             departureTime: '11.55',
             departureStation: 'Kiev Central Park, 201',
             departureTown: 'KIEV',
@@ -50,7 +50,7 @@ const routes =
             duration: '8.30',
         },
         {
-            date: '30.08.2018',
+            date: '30.06.2018',
             departureTime: '7.16',
             departureStation: 'Kiev Olimpiskiy, 10',
             departureTown: 'KIEV',

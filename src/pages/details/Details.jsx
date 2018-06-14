@@ -42,9 +42,9 @@ export default class Main extends Component {
                             </div>
                             <p>Lviv Second Bus Station</p>
                         </div>
+                    <a className="buy-button" href="../cogradulation" >buy</a>
                     </div>
                     <div className="detail-map">
-
                     </div>
                 </div>
 
