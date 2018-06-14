@@ -1,5 +1,11 @@
+.main-container{
+    text-align: center;
+}
 .detail-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
 }
 
 .detail-container > .result-item {
@@ -17,4 +23,7 @@
 .direction {
     border-bottom: 1px solid #222f42;
     align-self: flex-end;
+}
+.map{
+    border-radius: 20px;
 }
