@@ -28,9 +28,6 @@ export default class Main extends Component {
                             </div>
                             <p>Kiev Central Bus Station</p>
                         </div>
-                        {/*<div className="result-duration">*/}
-                            {/**/}
-                        {/*</div>*/}
                         <div className="end">
                             <div className="end-container">
                                 <div className="direction">To:</div>
@@ -44,11 +41,13 @@ export default class Main extends Component {
                         </div>
                     </div>
                     <div className="detail-map">
-
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2594223.0547690615!2d24.507448131331074!3d50.58212876599235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!3m2!1d49.839683!2d24.029716999999998!5e0!3m2!1sru!2sua!4v1528967854518"
+                            width="600" height="350" className="map" allowfullscreen></iframe>
                     </div>
                 </div>
-
-                {/*<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1312687.52081317!2d32.23863707939907!3d50.01430131261039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!3m2!1d50.4501!2d30.5234!4m5!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0LrRltCyLCDQpdCw0YDQutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!3m2!1d49.9935!2d36.230382999999996!5e0!3m2!1suk!2sua!4v1528815079647" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>*/}
+                <button type="submit" className="search-button" >choose seats</button>
+                <div className="seats">? seats available</div>
             </div>
         );
     }
