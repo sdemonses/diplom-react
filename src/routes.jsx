@@ -7,6 +7,7 @@ import Login from './pages/login/Login';
 import Main from './pages/main/Main';
 import Register from './pages/register/Register';
 import Details from './pages/details/Details';
+import FoundedItems from './pages/foundedItems/FoundedItems';
 
 //
 import NotFound from './pages/not-found/NotFound';
@@ -26,17 +27,14 @@ export default function routes(routes) {
 
     return (
         <AppRoute>
-
             <ConnectedSwitch>
-
-                <Route exact path={routes.LOGIN} component={Login}/>
                 <Route exact path={routes.MAIN} component={Main}/>
-                <Route exact path={routes.REGISTER} component={Register}/>
-                <Route exact path={routes.DETAILS} component={Details}/>
+                <Route path={routes.LOGIN} component={Login}/>
+                <Route path={routes.REGISTER} component={Register}/>
+                <Route path={routes.DETAILS} component={Details}/>
+                <Route path={routes.ROUTES} component={FoundedItems}/>
                 <Route component={NotFound}/>
-
             </ConnectedSwitch>
-
         </AppRoute>
     );
 }

@@ -1,4 +1,5 @@
 import React, {PureComponent} from "react";
+import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './../../assets/css/base.css'
 class SearchResult extends PureComponent {
@@ -7,7 +8,7 @@ class SearchResult extends PureComponent {
             <div className="result-item">
                 <div className="start">
                     <div className="start-container">
-                        <div className="start-city"> kiev</div>
+                        <div className="start-city"> {route.departureTown}</div>
                         <div className="start-date">
                             <p>30.06.2018</p>
                             <p className="time">14:00</p>
